@@ -1,0 +1,226 @@
+/* body {
+    background-color: blue;
+    
+    
+}
+
+.logo {
+
+   position: relative;
+   left: 130px;
+   top: 40px;
+}
+
+.Block {
+    position: relative;
+    left: 80px;
+    bottom: 70px;
+    color: aliceblue;
+}
+
+.nav {
+  
+    padding: 10px;
+    position: relative;
+    right: 300px;
+    color: aliceblue;
+    bottom: 100px; 
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+
+ol li {
+    background-color: (63, 64, 65);
+    display: inline;
+    color: white;
+   margin-left: 20px;
+    position: relative;
+   left: 700px;
+
+    
+}
+
+.line {
+    position: relative;
+    left: 180%;
+    bottom: 150px;
+    
+}
+.text {
+    color: aliceblue;
+    margin-left: 140px;
+}
+
+.image {
+    position: relative;
+    left: 800px;
+    bottom: 330px;
+    border: 1px;
+}
+.image :hover {
+    opacity: 0.7;
+}
+
+
+.btn {
+    color: rgb(32, 83, 252);
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 7px;
+    border: none;
+    position: relative;
+    left: 140px;
+  }
+
+  .play {
+    margin-left: 250px;
+    margin-top: -40px;
+  }
+
+  .text2 {
+    color: aliceblue;
+    margin-left: 60px;
+    position: relative;
+    bottom: 50px;
+    
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  body {
+    background-color: #3A40E8;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+.business-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav ol {
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.nav li {
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+.text-content h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background-color: white;
+    color: #3A40E8;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.play {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.play img {
+    margin-right: 10px;
+}
+
+.text2 {
+    font-size: 16px;
+}
+
+.image-content {
+    max-width: 40%;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
